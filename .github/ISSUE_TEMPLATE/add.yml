@@ -11,9 +11,17 @@ body:
       placeholder: "http://exemplo.com/playlist.m3u"
     validations:
       required: true
+
   - type: textarea
     id: detalhes
     attributes:
       label: "Detalhes adicionais"
       description: "Informe qualquer informação extra sobre a lista"
       placeholder: "Ex.: idioma, qualidade, origem"
+
+  - type: markdown
+    attributes:
+      value: |
+        **Upload de imagem**
+        Anexe aqui uma imagem relacionada (ex.: logo do canal, screenshot).
+        Use o botão **Attach files** do GitHub abaixo para enviar.
