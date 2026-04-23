@@ -1,19 +1,19 @@
 name: Add a M3U
-description: Solicitação para adicionar uma nova lista M3U
+description: "Solicitação para adicionar uma nova lista M3U"
 title: "[Add M3U] "
 labels: ["Add a M3U"]
 body:
   - type: input
     id: link
     attributes:
-      label: Link da lista
-      description: Cole aqui o link M3U
-      placeholder: http://exemplo.com/playlist.m3u
+      label: "Link da lista"
+      description: "Cole aqui o link M3U"
+      placeholder: "http://exemplo.com/playlist.m3u"
     validations:
       required: true
   - type: textarea
     id: detalhes
     attributes:
-      label: Detalhes adicionais
-      description: Informe qualquer informação extra sobre a lista
-      placeholder: Ex.: idioma, qualidade, origem
+      label: "Detalhes adicionais"
+      description: "Informe qualquer informação extra sobre a lista"
+      placeholder: "Ex.: idioma, qualidade, origem"
